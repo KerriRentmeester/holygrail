@@ -5,7 +5,7 @@
 Holy Grail
 
 # **Description**:
-This is a standalone React.js app in which the state of each component (header, footer, article, left, right) is communicated with the other components. The user can click on the +/- icons in each componenet to change the numbers of each component. 
+This is a standalone React.js app in which the state of each component (header, footer, article, left, right) is communicated with the other components. The user can click on the +/- icons in each component to change the numbers of each component. 
 
 This is a three-tier app: React, SuperAgent, and a browser for the client side (Front-End); NodeJS and Express on the server side (Back-End); and Docker as a containerization solution with Redis serving as the data store (Data Storage).
 
@@ -35,8 +35,8 @@ To run my project on your machine, download the files onto your machine or clone
 * Phase 4:
 * Type terminal command: node index.js
 * Enter the routes to verify functionality by typing the following addresses in a browser: 
-** http://localhost:3000\data
-** http://localhost:3000\update\header1
+* http://localhost:3000\data
+* http://localhost:3000\update\header1
 * In a browser type address: http://localhost:3000
 * Click on the + / - icons and watch the numbers change with each click.
 * When finished working with the project, close the Docker container by typing in terminal command: docker rm some-redis
