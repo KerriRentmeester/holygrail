@@ -39,7 +39,8 @@ To run my project on your machine, download the files onto your machine or clone
 * http://localhost:3000\update\header1
 * In a browser type address: http://localhost:3000
 * Click on the + / - icons and watch the numbers change with each click.
-* When finished working with the project, close the Docker container by typing in terminal command: docker rm some-redis
+* When finished working with the project, stop running the Docker container by typing in terminal command: docker stop some-redis
+* You may also want to remove the container. If so, type terminal command: docker rm some-redis
 * When finished working with the project, close the port by typing in terminal command: Ctrl + C
 
 # **Support**: 
