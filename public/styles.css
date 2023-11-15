@@ -14,14 +14,14 @@ header, aside, article, footer{
     font-size: 1em;
 }
 aside{  /* left and rt sides styles equally */
-  background: #98FB98;    
+  background: #a5ad8d;    
 }
 article{
-  background: #FFCCD6;    
+  background: #d6a5a1;    
 }
 header, footer{
   grid-column: 1 / 4;
-  background: #94C9FA;    
+  background: #e1c16b;    
 }
 
 body{
